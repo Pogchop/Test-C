@@ -1,0 +1,16 @@
+#include <stdio.h> 
+#include <string.h>
+void main()
+{    
+    char alpha[100];  
+    int j;  
+    printf("Enter: ");
+    scanf("%s",alpha);
+    for(j=0;j<strlen(alpha);j++)
+    if((alpha[j]>=65) &&(alpha[j]<=90))
+    {
+        alpha[j]+=32;
+    }
+        getchar();
+        printf("%s",alpha);
+        }
